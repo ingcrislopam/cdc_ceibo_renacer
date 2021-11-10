@@ -2,6 +2,7 @@
 	require_once "global.php";
 	$conexion = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
 	mysqli_query($conexion,'SET NAMES "'.DB_ENCODE.'"');
+	//Esto es un comentario
 
 	//Si tenemos un posible error en la conexión lo mostramos
 	if (mysqli_connect_errno()) {
